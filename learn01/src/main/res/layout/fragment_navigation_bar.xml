@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/brown"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true">
+
+    <RadioGroup
+        android:id="@+id/navigationGroup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/inforpic"
+            android:checked="true"
+            android:gravity="center"
+            android:text="微信"
+            android:textColor="@drawable/infortext" />
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/contactpic"
+
+            android:text="通讯录"
+            android:textColor="@drawable/contacttext"
+            android:gravity="center"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/findpic"
+            android:gravity="center"
+            android:textColor="@drawable/findtext"
+            android:text="发现" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/profilepic"
+            android:textColor="@drawable/profiletext"
+            android:text="我"
+            android:gravity="center"
+            />
+        <!--<RadioButton
+            android:id="@+id/info_bt"
+            android:text="微信"
+            android:button="@null"
+            android:gravity="bottom|center"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:textColor="@drawable/infortext"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/contact_bt"
+            android:layout_weight="1"
+            android:textColor="@drawable/contacttext"
+            android:layout_width="wrap_content"
+            android:gravity="bottom|center"
+            android:text="通讯录"
+            android:button="@null"
+            android:layout_height="match_parent"
+            />
+        <RadioButton
+            android:id="@+id/find_bt"
+            android:gravity="bottom|center"
+            android:layout_weight="1"
+            android:textColor="@drawable/findtext"
+            android:text="发现"
+            android:button="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <RadioButton
+            android:id="@+id/profile_bt"
+            android:gravity="bottom|center"
+            android:text="我"
+            android:button="@null"
+            android:layout_weight="1"
+            android:textColor="@drawable/profiletext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />-->
+    </RadioGroup>
+</LinearLayout>

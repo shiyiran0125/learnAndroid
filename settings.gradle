@@ -1,0 +1,7 @@
+include ':learn01'
+include ':app'
+rootProject.name = "LearnAndroid"
+include ':learn02'
+include ':learn02_service'
+include ':filedemo'
+include ':animation'

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:id="@+id/appIcon"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/appIcon"
+            android:layout_toLeftOf="@id/btn_download"
+            android:paddingLeft="10dp">
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="应用名称" />
+            <TextView
+                android:id="@+id/appUserCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12333 | "
+                android:layout_below="@id/appName"/>
+            <TextView
+                android:id="@+id/appSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300M"
+                android:layout_below="@id/appName"
+                android:layout_toRightOf="@id/appUserCount"/>
+            <TextView
+                android:id="@+id/appVersionName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  V1.2.3"
+                android:layout_toRightOf="@id/appSize"
+                android:layout_below="@id/appName"/>
+            <TextView
+                android:id="@+id/appEditorIntro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="这是一个app"
+                android:layout_below="@id/appUserCount"/>
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_download"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="安装"
+            android:textSize="10sp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+</LinearLayout>
